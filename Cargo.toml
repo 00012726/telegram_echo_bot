@@ -1,0 +1,9 @@
+[package]
+name = "telegram_echo_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+telegram-bot = "0.8.0"
+tokio = { version = "0.2", features = ["full"] }
+tokio-stream = "0.1"
